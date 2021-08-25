@@ -1,9 +1,13 @@
+OTT(Over The Top)Platform provides an to television and film content over the internet.
+Collaboratively worked with 3 other engineering students to develop a web application based on a clone of an OTT Platform. 
+Technologies used :PHP, MySQL,HTML, CSS, JS, Bootstrap 
+
 Home Page
 
 ![avatar](https://user-images.githubusercontent.com/72092960/130804793-8cb4d5dd-0dff-4518-a8e2-ff3472b9eb04.png)
  
-User sign-up ![Screenshot from 2021-08-25 19-38-30](https://user-images.githubusercontent.com/72092960/130807378-69f84dbe-9181-4017-8964-b980d89f287e.png)
-page
+User sign-up page ![Screenshot from 2021-08-25 19-38-30](https://user-images.githubusercontent.com/72092960/130807378-69f84dbe-9181-4017-8964-b980d89f287e.png)
+
 
 Subscription page
 ![subscription](https://user-images.githubusercontent.com/72092960/130807934-456140e1-9829-425b-b52f-a737b7678586.png)
