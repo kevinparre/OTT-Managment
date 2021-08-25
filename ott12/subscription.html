@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p.outset {border-style: outset;}
+  </style>
+  <title>plan info</title>
+  <link  type="text/css" rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+</head>
+<body >
+ <header>
+   <nav>
+       <div class="logo">
+         <h1>OTT</h1>
+
+       </div>
+       <div class="menu">
+
+         <a href="index.html" class="bttwo">home </a>
+
+       </div>
+     </nav>
+
+<div class="intro" style="width:100vh;
+height:130px;
+color: white;
+text-transform: capitalize;
+padding-left:10px;">
+  <h1 style:class="outset">Select your SUBSCRIPTION according to your need.</h1>
+  <h1 style:class="outset">choose your plan.</h1>
+  <h1 style:class="outset">no commitments,cancel anytime.</h1>
+</div>
+
+<form class="subss" action="subscription.php" method="post" >
+
+  <div class="float-container"style="  border:3px solid #000;
+    height: 260px;">
+
+         <div class="float-child" style="width: 50%;
+         height: 260px;
+         float: left;
+         padding:20px;
+         background: white;
+         text-transform: capitalize;
+        }">
+        
+               <div class="green">
+
+                      <p style="padding: 20px 0 20px;
+                      font-weight: bolder;
+                      font-size: 30px;">standard &#8377; 499/month</p>
+                       <ol>
+                         <li>stream in high definition.</li>
+                         <li>watch on 2 devices at a time.</li>
+                         <li>watch on any phone,tablet,compuer or tv.</li>
+
+                       </ol><br>
+
+                         <h2> <input type="radio" id="standard" name="sub_type" value="standard" required>
+                           <label for="standard">standard</label></h2><br>
+                </div>
+        </div>
+
+
+        <div class="float-child">
+                 <div class="blue">
+                          <p style="padding: 20px 0 20px;
+                          font-weight: bolder;
+                          font-size: 30px;
+                        }">Premium &#8377; 799/month</p>
+                          <ol>
+                            <li style="  padding: 10px 0 10px;">stream in ULTRA HD.</li>
+                            <li style="  padding: 10px 0 10px;">watch on 4 devices at a time.</li>
+                            <li style="  padding: 10px 0 10px;">watch on any phone,tablet,computer or tv.</li>
+
+                          </ol><br>
+                          <h2><input type="radio" id="premium" name="sub_type" value="premium" required>
+                           <label for="premium">premium</label></h2><br>
+                  </div>
+        </div>
+
+                      
+
+
+         <div class="float-child" style="width: 50%;
+         height: 260px;
+         float: left;
+         padding:20px;
+         background: white;
+         text-transform: capitalize;
+        }">
+                  <div class="green">
+
+                      <p style="padding: 20px 0 20px;
+                      font-weight: bolder;
+                      font-size: 30px;">DURATION</p>
+
+
+
+                    <h3> <input type="radio" id="1_year" name="duration" value="12" required>
+                       <label for="1_year" required>1 year</label><br><br>
+
+                        <input type="radio" id="3_months" name="duration" value="3" required>
+                       <label for="3_months" required>3 months</label></h3><br>
+                        
+
+                             <input type="submit" name="submit" 
+                             style="  margin: 20px 0 20px 0;
+                              padding: 12px 30px;
+                              position: relative;top: 20px;
+                              border-radius: 4px;
+                              outline: none;
+                              text-transform: uppercase;
+                              font-size: 20px;
+                              text-decoration: none;
+                              letter-spacing:1px;
+                              background: rgb(229, 9, 20);
+                              text-shadow:none;
+                              color:white;
+                              z-index:999;
+                              transition:all .5s;" required>
+                    
+                </div>
+    </div>
+
+
+
+    <div class="float-child"style="width: 50%;
+         height: 260px;
+         float: left;
+         padding:20px;
+         background: white;
+         text-transform: capitalize;
+        }"> 
+                 <div class="green">
+                   
+                 </div>
+    </div>
+</div>
+</form>
+</header>
+</body>
+</html>

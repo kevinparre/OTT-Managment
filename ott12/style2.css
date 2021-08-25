@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 13vh;
+  background: rgba(20, 20, 20, 0.7);
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 28%;
+  height: 50px;
+  text-align: center;
+  color: rgb(229, 9, 20);
+  text-shadow: 2px 2px 8px black;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav .menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .menu a {
+  text-decoration: none;
+  margin: 20px 0 20px 0;
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+div .bttwo {
+  background: #fff;
+  color: #000;
+}
+
+.bttwo:hover {
+  background: #E50914;
+  color: white;
+}
+}
+
+section {
+  padding: 8rem 0;
+  background-color: #fff;
+}
+
+.heading {
+  margin-right: -3px;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 35px;
+  position: relative;
+  top: 50px;
+  letter-spacing: 2px;
+  color: rgb(229, 9, 20);
+}
+
+.heading::after {
+  content: "";
+  width: 10rem;
+  height: .8rem;
+  background: black;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 32rem;
+  background: #ebeef8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 2rem;
+  box-shadow: .5rem .5rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+}
+
+.profile-img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -11rem;
+  z-index: 999;
+  border: 1rem solid #ebeef8;
+}
+.card h1{
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  color: #333;
+  margin: 1.5rem 0;
+}
+
+.roll {
+  color: #777;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.about {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.card .contact {
+  padding: 1rem 2.5rem;
+  background: #445ae3;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.card .contact:hover {
+  transform: translateY(-2px);
+  box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .2);
+}

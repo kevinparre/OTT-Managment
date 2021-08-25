@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign up</title>
+ <link  type="text/css" rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <script>
+function validateForm(user_name) 
+{
+  //var pattern=/^[0-9]*$/;
+  var pattern=/^[a-zA-Z-' ]*$/;
+   if(user_name.value.match(pattern)) 
+  {   return true;
+    
+  }
+  else
+  {alert("Name must be letters");
+     return false;
+  
+  }
+
+  
+}
+</script>
+  
+</head>
+<body >
+
+<header>
+   <nav>
+       <div class="logo">
+         <h1>OTT</h1>
+
+       </div>
+       <div class="menu">
+
+         <a href="index.html" class="bttwo">home </a>
+
+       </div>
+     </nav>
+<main>
+  <div class="loginbox">
+    <img src="avatar.png" alt="avtar" class="avatar">
+    <pre><h5>           (fields with * are required)</h5></pre>
+    <h1 class="lo">Sign Up here</h1>
+
+  
+  <form name="myform"  action="user_signup.php" method="post"  >
+    
+    
+  
+  <p>UserName*</p>
+       <input type="text" name="user_name" placeholder="Enter UserName"   maxlength="30" title="Please enter valid name" required>
+  <p>Email*</p>
+     <input type="email" name="user_email" placeholder="Enter Email" required>
+  <p>Password*</p>
+      <input type="password" name="user_password" placeholder="Enter Password" required>
+  <p>Phone*</p>
+  
+      <input type="text" name="user_phone" placeholder=" 10 digit Mobile Number" pattern="[0-9]{10}" maxlength="10"  title="Please enter 10 digit mobile no." required><br><br>
+
+      <input  type="submit" name="submit" style="font-family:serif" onclick="return validateForm(document.myform.user_name)">
+        
+
+
+
+</form>
+</div>
+</main>
+</header>
+</body>
+ </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ADMIN</title>
+  <link type="text/css" rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+      <h1>OTT</h1>
+
+
+
+    </div>
+    <div class="menu">
+
+      <a href="index.html" class="bttwo">home </a>
+      <a href="index.html" class="bttwo">logout </a>
+
+      
+
+
+    </div>
+      
+  </nav>
+  <section>
+    <h1 class="heading">WELCOME</h1>
+    <div class="container">
+
+      <div class="card-wrapper">
+        <div class="card">
+          <img src="crown.jpg" alt="card background" class="card-img">-
+          <img src="crown.jpg" alt="profile img" class="profile-img">
+          <h1>Please Choose</h1>
+          
+          <form action="insertm.php" method="POST">
+          <input type="submit" id="action" value="Add Movie" name="genere" class="contact">
+          <label for="action"></label>
+            </form>
+            <form action="Updatem.php" method="POST">
+          <input type="submit" id="horror" value="Update Movie" name="genere" class="contact">
+          <label for="horror"></label>
+            </form>
+            <form action="delete.php" method="POST">
+          <input type="submit" id="romance" value="Delete Movie" name="genere" class="contact">
+          <label for="romance"></label>
+            </form>
+            <form action="movie.php" method="POST">
+          <input type="submit" id="comedy" value="See Movie List" name="genere" class="contact">
+          <label for="comedy"></label>
+            </form>
+                 <form action="user_details.php" method="POST">
+          <input type="submit" id="user_details" value="See user details" name="user_details" class="contact">
+          <label for="user_details"></label>
+            </form>
+
+        </div>
+
+      </div>
+    </div>
+    
+  </section>
+</body>
+
+</html>
